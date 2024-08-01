@@ -1,0 +1,2 @@
+bazel run repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST
+

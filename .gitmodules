@@ -1,0 +1,6 @@
+[submodule "repo_projects/pProjectFull"]
+	path = repo_projects/pProjectFull
+	url = https://github.com/NagarajaHuliyapuradaMata/pProjectFull.git
+[submodule "repo_submodules/SwcServiceStartup"]
+	path = repo_submodules/SwcServiceStartup
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcServiceStartup.git

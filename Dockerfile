@@ -17,5 +17,6 @@ WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu
 RUN git checkout main
 RUN git pull
 RUN bazel build repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST
-CMD [ "bash" ]
+
+CMD [ "./bazel-bin/repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST" ]
 

@@ -11,6 +11,6 @@ RUN wget https://github.com/bazelbuild/bazelisk/releases/download/v1.20.0/bazeli
 RUN chmod +x bazelisk-linux-amd64
 RUN mv bazelisk-linux-amd64 /usr/local/bin/bazel
 RUN apt-get -y install g++
-RUN bazel run repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST
+RUN bazel build repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST
 CMD [ "bash" ]
 

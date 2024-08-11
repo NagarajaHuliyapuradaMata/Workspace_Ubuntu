@@ -13,10 +13,13 @@ RUN git clone --recurse-submodules https://github.com/NagarajaHuliyapuradaMata/W
 WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu/repo_submodules/SwcServiceStartup
 RUN git checkout main
 RUN git pull
+WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu/repo_projects/pProjectFull
+RUN git checkout main
+RUN git pull
 WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu
 RUN git checkout main
 RUN git pull
-RUN bazel build repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST
+RUN bazel build repo_projects/pProjectFull/vR0.0.1/pProjectFull_vR0.0.1
 
-CMD [ "./bazel-bin/repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST" ]
+CMD [ "./bazel-bin/repo_projects/pProjectFull/vR0.0.1/pProjectFull_vR0.0.1" ]
 

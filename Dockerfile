@@ -19,7 +19,8 @@ RUN git pull
 WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu
 RUN git checkout main
 RUN git pull
-RUN bazel build repo_projects/pProjectFull/vR0.0.1/pProjectFull_vR0.0.1
+#RUN bazel build repo_projects/pProjectFull/vR0.0.1/pProjectFull_vR0.0.1
 
-CMD [ "./bazel-bin/repo_projects/pProjectFull/vR0.0.1/pProjectFull_vR0.0.1" ]
+CMD [ "bash" ]
+#CMD [ "./bazel-bin/repo_projects/pProjectFull/vR0.0.1/pProjectFull_vR0.0.1" ]
 

@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:24.04
 WORKDIR /home
 RUN apt-get -y update && apt-get -y install
 RUN apt-get -y install git
@@ -19,7 +19,9 @@ RUN git submodule add https://github.com/NagarajaHuliyapuradaMata/SwcServiceStar
 RUN git submodule add https://github.com/NagarajaHuliyapuradaMata/SwcServiceEcuM.git
 WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu/repo_projects
 RUN git submodule add https://github.com/NagarajaHuliyapuradaMata/pProjectFull.git
+WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu
 RUN bazel build repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST
 
 CMD [ "./bazel-bin/repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST" ]
+#CMD [ "bash" ]
 

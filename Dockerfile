@@ -20,8 +20,7 @@ RUN git submodule add https://github.com/NagarajaHuliyapuradaMata/SwcServiceEcuM
 WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu/repo_projects
 RUN git submodule add https://github.com/NagarajaHuliyapuradaMata/pProjectFull.git
 WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu
-RUN bazel build repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST
+RUN bazel build repo_projects/pProjectFull/vR0.0.3/pProjectFull_vR0.0.3
 
-CMD [ "./bazel-bin/repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST" ]
-#CMD [ "bash" ]
+CMD [ "./bazel-bin/repo_projects/pProjectFull/vR0.0.3/pProjectFull_vR0.0.3" ]
 

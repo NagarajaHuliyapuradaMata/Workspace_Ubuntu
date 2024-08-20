@@ -1,0 +1,15 @@
+[submodule "repo_submodules/common"]
+	path = repo_submodules/common
+	url = https://github.com/NagarajaHuliyapuradaMata/common.git
+[submodule "repo_submodules/SwcServiceStartup"]
+	path = repo_submodules/SwcServiceStartup
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcServiceStartup.git
+[submodule "repo_submodules/SwcServiceEcuM"]
+	path = repo_submodules/SwcServiceEcuM
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcServiceEcuM.git
+[submodule "repo_projects/pProjectFull"]
+	path = repo_projects/pProjectFull
+	url = https://github.com/NagarajaHuliyapuradaMata/pProjectFull.git
+[submodule "repo_submodules/SwcServiceOs"]
+	path = repo_submodules/SwcServiceOs
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcServiceOs.git

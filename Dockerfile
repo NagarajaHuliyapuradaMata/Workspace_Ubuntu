@@ -17,6 +17,7 @@ WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu/repo_submodules
 RUN git submodule add https://github.com/NagarajaHuliyapuradaMata/common.git
 RUN git submodule add https://github.com/NagarajaHuliyapuradaMata/SwcServiceStartup.git
 RUN git submodule add https://github.com/NagarajaHuliyapuradaMata/SwcServiceEcuM.git
+RUN git submodule add https://github.com/NagarajaHuliyapuradaMata/SwcServiceOs.git
 WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu/repo_projects
 RUN git submodule add https://github.com/NagarajaHuliyapuradaMata/pProjectFull.git
 WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu

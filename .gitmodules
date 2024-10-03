@@ -1,0 +1,66 @@
+[submodule "repo_projects/pProjectFull"]
+	path = repo_projects/pProjectFull
+	url = https://github.com/NagarajaHuliyapuradaMata/pProjectFull.git
+[submodule "repo_submodules/common"]
+	path = repo_submodules/common
+	url = https://github.com/NagarajaHuliyapuradaMata/common.git
+[submodule "repo_submodules/SwcServiceStartup"]
+	path = repo_submodules/SwcServiceStartup
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcServiceStartup.git
+[submodule "repo_submodules/SwcServiceEcuM"]
+	path = repo_submodules/SwcServiceEcuM
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcServiceEcuM.git
+[submodule "repo_submodules/SwcServiceOs"]
+	path = repo_submodules/SwcServiceOs
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcServiceOs.git
+[submodule "repo_submodules/aapFunctionalCluster_CommunicationManagement"]
+	path = repo_submodules/aapFunctionalCluster_CommunicationManagement
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_CommunicationManagement.git
+[submodule "repo_submodules/aapFunctionalCluster_Core"]
+	path = repo_submodules/aapFunctionalCluster_Core
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_Core.git
+[submodule "repo_submodules/aapFunctionalCluster_Cryptography"]
+	path = repo_submodules/aapFunctionalCluster_Cryptography
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_Cryptography.git
+[submodule "repo_submodules/aapFunctionalCluster_DiagnosticManagement"]
+	path = repo_submodules/aapFunctionalCluster_DiagnosticManagement
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_DiagnosticManagement.git
+[submodule "repo_submodules/aapFunctionalCluster_ExecutionManagement"]
+	path = repo_submodules/aapFunctionalCluster_ExecutionManagement
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_ExecutionManagement.git
+[submodule "repo_submodules/aapFunctionalCluster_Firewall"]
+	path = repo_submodules/aapFunctionalCluster_Firewall
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_Firewall.git
+[submodule "repo_submodules/aapFunctionalCluster_IntrusionDetectionSystemManager"]
+	path = repo_submodules/aapFunctionalCluster_IntrusionDetectionSystemManager
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_IntrusionDetectionSystemManager.git
+[submodule "repo_submodules/aapFunctionalCluster_LogAndTrace"]
+	path = repo_submodules/aapFunctionalCluster_LogAndTrace
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_LogAndTrace.git
+[submodule "repo_submodules/aapFunctionalCluster_NetworkManagement"]
+	path = repo_submodules/aapFunctionalCluster_NetworkManagement
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_NetworkManagement.git
+[submodule "repo_submodules/aapFunctionalCluster_Persistency"]
+	path = repo_submodules/aapFunctionalCluster_Persistency
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_Persistency.git
+[submodule "repo_submodules/aapFunctionalCluster_PlatformHealthManagement"]
+	path = repo_submodules/aapFunctionalCluster_PlatformHealthManagement
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_PlatformHealthManagement.git
+[submodule "repo_submodules/aapFunctionalCluster_RawDataStream"]
+	path = repo_submodules/aapFunctionalCluster_RawDataStream
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_RawDataStream.git
+[submodule "repo_submodules/aapFunctionalCluster_Registry"]
+	path = repo_submodules/aapFunctionalCluster_Registry
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_Registry.git
+[submodule "repo_submodules/aapFunctionalCluster_StateManagement"]
+	path = repo_submodules/aapFunctionalCluster_StateManagement
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_StateManagement.git
+[submodule "repo_submodules/aapFunctionalCluster_TimeSynchronization"]
+	path = repo_submodules/aapFunctionalCluster_TimeSynchronization
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_TimeSynchronization.git
+[submodule "repo_submodules/aapFunctionalCluster_UpdateAndConfigurationManagement"]
+	path = repo_submodules/aapFunctionalCluster_UpdateAndConfigurationManagement
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_UpdateAndConfigurationManagement.git
+[submodule "repo_submodules/aapFunctionalCluster_VehicleUpdateAndConfigurationManagement"]
+	path = repo_submodules/aapFunctionalCluster_VehicleUpdateAndConfigurationManagement
+	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_VehicleUpdateAndConfigurationManagement.git

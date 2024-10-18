@@ -1,3 +1,0 @@
-sudo docker push nagarajahuliyapuradamata/image_docker_workspace_ubuntu_project_full:vR0.0.1
-sudo docker login
-sudo docker tag image_docker_workspace_ubuntu_project_full:vR0.0.1 nagarajahuliyapuradamata/image_docker_workspace_ubuntu_project_full:vR0.0.1

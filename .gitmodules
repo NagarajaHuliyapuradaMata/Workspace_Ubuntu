@@ -1,6 +1,6 @@
-[submodule "repo_projects/pProjectFull"]
-	path = repo_projects/pProjectFull
-	url = https://github.com/NagarajaHuliyapuradaMata/pProjectFull.git
+[submodule "repo_projects/pProjectDiagnosticTester"]
+	path = repo_projects/pProjectDiagnosticTester
+	url = https://github.com/NagarajaHuliyapuradaMata/pProjectDiagnosticTester.git
 [submodule "repo_submodules/common"]
 	path = repo_submodules/common
 	url = https://github.com/NagarajaHuliyapuradaMata/common.git

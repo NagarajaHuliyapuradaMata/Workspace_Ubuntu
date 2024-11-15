@@ -1,9 +1,3 @@
-[submodule "repo_projects/pProjectDiagnosticTester"]
-	path = repo_projects/pProjectDiagnosticTester
-	url = https://github.com/NagarajaHuliyapuradaMata/pProjectDiagnosticTester.git
-[submodule "repo_submodules/common"]
-	path = repo_submodules/common
-	url = https://github.com/NagarajaHuliyapuradaMata/common.git
 [submodule "repo_submodules/aapFunctionalCluster_CommunicationManagement"]
 	path = repo_submodules/aapFunctionalCluster_CommunicationManagement
 	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_CommunicationManagement.git
@@ -55,3 +49,18 @@
 [submodule "repo_submodules/aapFunctionalCluster_VehicleUpdateAndConfigurationManagement"]
 	path = repo_submodules/aapFunctionalCluster_VehicleUpdateAndConfigurationManagement
 	url = https://github.com/NagarajaHuliyapuradaMata/aapFunctionalCluster_VehicleUpdateAndConfigurationManagement.git
+[submodule "repo_submodules/common"]
+	path = repo_submodules/common
+	url = https://github.com/NagarajaHuliyapuradaMata/common.git
+[submodule "repo_submodules/SwcServiceEcuM"]
+	path = repo_submodules/SwcServiceEcuM
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcServiceEcuM.git
+[submodule "repo_submodules/SwcServiceEthTp"]
+	path = repo_submodules/SwcServiceEthTp
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcServiceEthTp.git
+[submodule "repo_projects/pProjectDiagnosticTester"]
+	path = repo_projects/pProjectDiagnosticTester
+	url = https://github.com/NagarajaHuliyapuradaMata/pProjectDiagnosticTester.git
+[submodule "repo_projects/pProjectVirtualEcu"]
+	path = repo_projects/pProjectVirtualEcu
+	url = https://github.com/NagarajaHuliyapuradaMata/pProjectVirtualEcu.git

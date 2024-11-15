@@ -117,3 +117,24 @@ git status
 git commit -m "Intial bazel build script"
 git push
 
+cd ../common
+echo common
+git add .
+git status
+git commit -m "Intial bazel build script"
+git push
+
+cd ../SwcServiceEcuM
+echo SwcServiceEcuM
+git add .
+git status
+git commit -m "Intial bazel build script"
+git push
+
+cd ../SwcServiceEthTp
+echo SwcServiceEthTp
+git add .
+git status
+git commit -m "Intial bazel build script"
+git push
+

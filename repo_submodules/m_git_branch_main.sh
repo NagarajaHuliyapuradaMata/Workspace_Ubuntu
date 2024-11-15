@@ -1,9 +1,5 @@
-echo "common"
-cd ./common
-git checkout main
-
 echo "aapFunctionalCluster_CommunicationManagement"
-cd ../aapFunctionalCluster_CommunicationManagement
+cd ./aapFunctionalCluster_CommunicationManagement
 git checkout main
 
 echo "aapFunctionalCluster_Core"
@@ -70,7 +66,23 @@ echo "aapFunctionalCluster_VehicleUpdateAndConfigurationManagement"
 cd ../aapFunctionalCluster_VehicleUpdateAndConfigurationManagement
 git checkout main
 
-echo "pProjectFull"
-cd ../../repo_projects/pProjectFull
+echo "common"
+cd ../common
+git checkout main
+
+echo "SwcServiceEcuM"
+cd ../SwcServiceEcuM
+git checkout main
+
+echo "SwcServiceEthTo"
+cd ../SwcServiceEthTp
+git checkout main
+
+echo "pProjectDiagnosticTester"
+cd ../../repo_projects/pProjectDiagnosticTester
+git checkout main
+
+echo "pProjectVirtualEcu"
+cd ../repo_projects/pProjectVirtualEcu
 git checkout main
 

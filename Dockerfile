@@ -50,11 +50,11 @@ WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu/repo_submodules/aapFunct
 RUN git checkout main
 WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu/repo_submodules/aapFunctionalCluster_VehicleUpdateAndConfigurationManagement
 RUN git checkout main
-WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu/repo_projects/pProjectFull
+WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu/repo_projects/pProjectVirtualEcu
 RUN git checkout main
 WORKDIR /home/NagarajaHuliyapuradaMata/Workspace_Ubuntu
-RUN bazel build -c dbg repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST
+RUN bazel build -c dbg repo_projects/pProjectVirtualEcu/main_LATEST/pProjectVirtualEcu_main_LATEST
 
-CMD [ "gdb bazel-bin/repo_projects/pProjectFull/main_LATEST/pProjectFull_main_LATEST" ]
+CMD [ "gdb bazel-bin/repo_projects/pProjectVirtualEcu/main_LATEST/pProjectVirtualEcu_main_LATEST" ]
 #CMD [ "bash" ]
 

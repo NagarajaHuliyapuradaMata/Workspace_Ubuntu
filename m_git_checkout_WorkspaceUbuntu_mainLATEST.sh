@@ -1,5 +1,5 @@
 echo aapFunctionalCluster_CommunicationManagement
-cd ./aapFunctionalCluster_CommunicationManagement
+cd ./repo_submodules/aapFunctionalCluster_CommunicationManagement
 git checkout main
 
 echo aapFunctionalCluster_Core
@@ -67,14 +67,14 @@ cd ../aapFunctionalCluster_VehicleUpdateAndConfigurationManagement
 git checkout main
 
 echo common
-cd ../repo_submodules/common
+cd ../common
 git checkout main
 
 echo pProjectVirtualEcu
 cd ../../repo_projects/pProjectVirtualEcu
 git checkout main
 
-#echo pProjectDiagnosticTester
-#cd ../repo_projects/pProjectDiagnosticTester
-#git checkout main
+echo pProjectDiagnosticTester
+cd ../pProjectDiagnosticTester
+git checkout main
 

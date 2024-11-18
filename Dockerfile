@@ -1,9 +1,9 @@
 FROM ubuntu:24.04
 WORKDIR /home
 RUN apt-get -y update && apt-get -y install
+RUN apt-get update
 RUN apt-get -y install git
 RUN apt-get -y install g++
-RUN apt-get update
 #RUN apt-get -y install gdb
 RUN apt-get -y install wget
 RUN wget https://github.com/bazelbuild/bazelisk/releases/download/v1.20.0/bazelisk-linux-amd64

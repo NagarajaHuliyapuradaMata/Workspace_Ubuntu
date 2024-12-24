@@ -64,3 +64,6 @@
 [submodule "repo_projects/pProjectVirtualEcu"]
 	path = repo_projects/pProjectVirtualEcu
 	url = https://github.com/NagarajaHuliyapuradaMata/pProjectVirtualEcu.git
+[submodule "repo_submodules/SwcApplDigitalTwinMotorPMSM"]
+	path = repo_submodules/SwcApplDigitalTwinMotorPMSM
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcApplDigitalTwinMotorPMSM.git

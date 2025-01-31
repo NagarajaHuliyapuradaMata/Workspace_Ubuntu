@@ -67,3 +67,6 @@
 [submodule "repo_submodules/SwcApplDigitalTwinMotorPMSM"]
 	path = repo_submodules/SwcApplDigitalTwinMotorPMSM
 	url = https://github.com/NagarajaHuliyapuradaMata/SwcApplDigitalTwinMotorPMSM.git
+[submodule "repo_submodules/SwcApplControlMotor"]
+	path = repo_submodules/SwcApplControlMotor
+	url = https://github.com/NagarajaHuliyapuradaMata/SwcApplControlMotor.git
